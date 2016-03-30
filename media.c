@@ -13,7 +13,7 @@ int main()
   scanf("%f",&n1);
   __fpurge(stdin);
   printf("Digite a segunda nota\n");
-  scanf("%f",%n2);
+  scanf("%f",&n2);
   __fpurge(stdin);
   printf("Digite a terceira nota\n");
   scanf("%f",&n3);
@@ -22,7 +22,7 @@ int main()
   scanf("%f",&n4);
   __fpurge(stdin);
   
-  res = (n1 + n2 + n3 + n4)/4
+  res = (n1 + n2 + n3 + n4)/4;
   
   printf("A media e..: %.2f\n",res);
   
