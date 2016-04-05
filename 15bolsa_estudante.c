@@ -90,7 +90,7 @@ int main()
 	/******************************************************/
 	
 		if(boolOrient == 1 && boolRenda_per_capita == 1 && boolMedia == 1){
-			printf("Aprovado\n\n");
+			printf("\n\nAPROVADO..:\n\n");
 		}
 		else{
 			printf("\n\nReprovado, não se encaixou nos seguintes requisitos:\n");
